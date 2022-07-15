@@ -39,7 +39,7 @@
   padding-right: 1rem;
 }
 
-.emailAgent {
+.changeProperty {
   display: inline-block;
   width: 45%;
   background-color: white;
@@ -49,11 +49,11 @@
   color: blue;
 }
 
-.emailAgent:hover {
+.changeProperty:hover {
   cursor: pointer;
 }
 
-.emailAgent:active {
+.changeProperty:active {
   background-color: rgb(48, 48, 255);
   color: white;
 }
