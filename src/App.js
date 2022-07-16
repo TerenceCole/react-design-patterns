@@ -1,6 +1,7 @@
 import "./App.css";
 import Picture from "./components/Picture";
 import PropertyInfo from "./components/PropertyInfo";
+import ToggleSwitch from "./components/ToggleSwitch";
 
 const propertyInfo = [
   {
@@ -20,6 +21,7 @@ function App() {
     <div className="app">
       <h1>Real Estate</h1>
       <div className="info-container">
+        <ToggleSwitch />
         <Picture photoUrl={propertyInfo[0].photoUrl}></Picture>
         <PropertyInfo propertyInfo={propertyInfo}></PropertyInfo>
       </div>
