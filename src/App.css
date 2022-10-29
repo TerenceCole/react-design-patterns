@@ -15,8 +15,6 @@
 
 .houseImage {
   width: 100%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
 }
 
 .displayPropertyInfo {
@@ -125,5 +123,5 @@ input:checked + .slider:before {
   display: inline;
   margin-left: 0.5rem;
   color: #2196f3;
-  font-weight: 500;
+  font-weight: 700;
 }
